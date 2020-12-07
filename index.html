@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!--Title of the page-->
+    <title>Home</title>
+
+    <!--Startpage icon - material house icon-->
+    <link rel="shortcut icon" type="image/png" href="assets/favicon.png">
+    
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway:200,400">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Abel&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script type="text/javascript" src="assets/motivate.json"></script>
+    <script type="text/javascript" src="assets/icons.json"></script>
+</head>
+<body>
+	<div id="logo">
+		<h1 id="welcome-string"></h1>
+		<h2 id="thalaivar">Welcome home</h2>
+	</div>
+	<div class="row">
+	<div id="clock" style="display:inline;padding-left: 25%"></div>
+      <div class="weather-container" style="display:inline; padding-left: 25%">
+          <div id="weather-description" style="display:inline;"></div>
+          <div id="icon" style="display:inline;"></div>
+          <div id="temp"  style="display:inline;"></div>
+        </div>
+      </div>
+	</div>
+	<br>
+	<div id="content">
+		<form id="searchform" action="https://www.google.com/search" method="get" >
+		  <input class="search" type="text" name="q" placeholder="  Vaa Murugesa...">
+		</form>
+	</div>
+	<br>
+	<div id="content">
+		<!--Filled dynamically by script.js. Edit `MASTER_MAP` inside the script to change page's contents-->
+	</div>
+  <script src="bookmarks.js"></script>
+	<script type="text/javascript" src="script.js"></script>
+  <div id="credits">
+    Made by Adithya, avaialble on <a href="https://github.com/AdithyaViswanathan">GitHub</a>
+  </div>
+</body>
+</html>
